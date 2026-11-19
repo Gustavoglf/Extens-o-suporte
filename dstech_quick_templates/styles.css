@@ -1,0 +1,220 @@
+:host { all: initial; display: block !important; }
+:host([hidden]) { display: none !important; }
+.dqt-root, .dqt-root * { box-sizing: border-box; }
+.dqt-root {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  color: #182230;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  pointer-events: none;
+}
+.dqt-launcher {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 1px solid rgba(255,255,255,.75);
+  border-radius: 50%;
+  background: linear-gradient(145deg, #173b68, #2463a5);
+  box-shadow: 0 5px 18px rgba(14, 34, 58, .24), 0 1px 3px rgba(14,34,58,.18);
+  color: #fff;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: transform .16s ease, box-shadow .16s ease;
+}
+.dqt-launcher:hover { transform: translateY(-1px); box-shadow: 0 7px 21px rgba(14,34,58,.28); }
+.dqt-launcher:focus-visible, .dqt-close:focus-visible, .dqt-tab:focus-visible, .dqt-item:focus-visible, .dqt-clear:focus-visible, .dqt-search:focus-visible {
+  outline: 2px solid #67a8ed;
+  outline-offset: 2px;
+}
+.dqt-launcher-mark { font-size: 17px; font-weight: 800; letter-spacing: -.8px; }
+.dqt-launcher-dot {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #4bd3a2;
+}
+.dqt-panel {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 354px;
+  max-width: calc(100vw - 28px);
+  max-height: min(570px, calc(100vh - 82px));
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 18px 55px rgba(15, 30, 48, .2), 0 3px 10px rgba(15,30,48,.08);
+  pointer-events: auto;
+}
+.dqt-panel[hidden] { display: none; }
+.dqt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 16px 12px;
+  border-bottom: 1px solid #edf1f5;
+}
+.dqt-eyebrow { margin-bottom: 2px; color: #708095; font-size: 9px; font-weight: 750; letter-spacing: 1.1px; }
+.dqt-title { color: #17283c; font-size: 16px; font-weight: 750; letter-spacing: -.25px; }
+.dqt-close {
+  width: 29px;
+  height: 29px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #7c8998;
+  font-size: 23px;
+  line-height: 1;
+  cursor: pointer;
+}
+.dqt-close:hover { background: #f1f5f9; color: #23364b; }
+.dqt-tabs { display: flex; gap: 6px; padding: 11px 14px 9px; }
+.dqt-tab {
+  flex: 1;
+  min-height: 34px;
+  border: 1px solid #e4eaf1;
+  border-radius: 9px;
+  background: #f7f9fc;
+  color: #657487;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .12s ease;
+}
+.dqt-tab:hover { border-color: #b7cbe0; color: #234c78; }
+.dqt-tab.is-active { border-color: #1f568e; background: #1f568e; color: #fff; box-shadow: 0 2px 5px rgba(31,86,142,.18); }
+.dqt-list-heading { display: flex; justify-content: space-between; align-items: center; padding: 4px 16px 7px; }
+.dqt-list-label { color: #758396; font-size: 9px; font-weight: 800; letter-spacing: .8px; }
+.dqt-count { color: #99a5b3; font-size: 10px; font-variant-numeric: tabular-nums; }
+.dqt-note {
+  margin: 0 13px 8px;
+  padding: 8px 9px;
+  border: 1px solid #e6edf5;
+  border-radius: 8px;
+  background: #f7f9fc;
+  color: #69798b;
+  font-size: 10px;
+  line-height: 1.4;
+}
+.dqt-note[hidden] { display: none; }
+.dqt-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-height: 75px;
+  max-height: 310px;
+  padding: 0 8px 8px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+.dqt-list[hidden] { display: none; }
+.dqt-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  min-height: 35px;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background: #fff;
+  color: #28394b;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  transition: background .12s ease, border-color .12s ease;
+}
+.dqt-item:hover { border-color: #e2ebf5; background: #f5f8fc; }
+.dqt-item-title { overflow: hidden; font-size: 11px; font-weight: 650; text-overflow: ellipsis; white-space: nowrap; }
+.dqt-item-plus { display: grid; place-items: center; flex: 0 0 20px; width: 20px; height: 20px; border-radius: 6px; background: #edf4fb; color: #245b91; font-size: 16px; font-weight: 500; }
+.dqt-empty { padding: 22px 16px; color: #8290a0; text-align: center; font-size: 12px; }
+.dqt-empty[hidden] { display: none; }
+.dqt-search-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 47px;
+  margin-top: auto;
+  padding: 8px 12px;
+  border-top: 1px solid #edf1f5;
+  background: #fbfcfe;
+}
+.dqt-search-icon { color: #75869a; font-size: 21px; line-height: 1; transform: rotate(-20deg); }
+.dqt-search {
+  width: 100%;
+  min-width: 0;
+  padding: 7px 2px;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: #26374a;
+  font: inherit;
+  font-size: 12px;
+}
+.dqt-search::placeholder { color: #9aa6b4; }
+.dqt-clear { width: 23px; height: 23px; border: 0; border-radius: 6px; background: transparent; color: #8090a1; font-size: 18px; cursor: pointer; }
+.dqt-clear:hover { background: #eef2f6; }
+.dqt-clear[hidden] { display: none; }
+.dqt-toast {
+  position: absolute;
+  right: 10px;
+  bottom: 54px;
+  max-width: calc(100% - 20px);
+  padding: 8px 11px;
+  border-radius: 8px;
+  background: #172b42;
+  color: #fff;
+  font-size: 11px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(5px);
+  transition: opacity .15s ease, transform .15s ease;
+  box-shadow: 0 4px 12px rgba(12,28,46,.18);
+}
+.dqt-toast.is-visible { opacity: 1; transform: translateY(0); }
+@media (max-width: 480px) {
+  .dqt-panel { width: min(354px, calc(100vw - 28px)); }
+}
+
+/* Gerenciamento local dos modelos */
+.dqt-list-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 2px 14px 7px; }
+.dqt-list-toolbar .dqt-list-heading { padding: 2px 0; flex: 1; }
+.dqt-manage-toggle { flex: 0 0 auto; padding: 6px 8px; border: 1px solid #dce6f0; border-radius: 7px; background: #f6f9fc; color: #245b91; font: inherit; font-size: 10px; font-weight: 700; cursor: pointer; }
+.dqt-manage-toggle:hover { background: #edf4fb; }
+.dqt-manager { padding: 10px 13px 12px; overflow-y: auto; max-height: 430px; border-top: 1px solid #edf1f5; }
+.dqt-manager[hidden] { display: none; }
+.dqt-manager-title { margin-bottom: 9px; color: #20354c; font-size: 12px; font-weight: 800; }
+.dqt-field-label { display: block; margin: 8px 0 4px; color: #617286; font-size: 10px; font-weight: 700; }
+.dqt-template-title, .dqt-template-text { display: block; width: 100%; min-width: 0; padding: 8px 9px; border: 1px solid #dce4ed; border-radius: 7px; outline: none; background: #fff; color: #24364a; font: inherit; font-size: 11px; }
+.dqt-template-title:focus, .dqt-template-text:focus { border-color: #4a83b9; box-shadow: 0 0 0 2px rgba(74,131,185,.12); }
+.dqt-template-text { resize: vertical; min-height: 95px; line-height: 1.45; }
+.dqt-manager-actions { display: flex; gap: 7px; margin-top: 9px; }
+.dqt-save, .dqt-cancel, .dqt-edit, .dqt-delete { padding: 7px 10px; border: 1px solid transparent; border-radius: 7px; font: inherit; font-size: 10px; font-weight: 750; cursor: pointer; }
+.dqt-save { background: #1f568e; color: #fff; }
+.dqt-save:hover { background: #194775; }
+.dqt-cancel { border-color: #e1e7ee; background: #f7f9fc; color: #637286; }
+.dqt-manager-list-label { margin: 15px 0 6px; color: #758396; font-size: 9px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase; }
+.dqt-manage-list { display: flex; flex-direction: column; gap: 5px; }
+.dqt-manage-row { display: flex; align-items: center; justify-content: space-between; gap: 7px; padding: 7px 8px; border: 1px solid #edf1f5; border-radius: 7px; background: #fff; }
+.dqt-manage-name { min-width: 0; overflow: hidden; color: #34465a; font-size: 10px; font-weight: 650; text-overflow: ellipsis; white-space: nowrap; }
+.dqt-manage-actions { display: flex; flex: 0 0 auto; gap: 4px; }
+.dqt-edit { background: #edf4fb; color: #245b91; }
+.dqt-delete { background: #fff0f0; color: #b33b3b; }
+.dqt-search-wrap[hidden] { display: none; }

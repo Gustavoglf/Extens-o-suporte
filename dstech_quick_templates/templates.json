@@ -1,0 +1,226 @@
+{
+  "ATENDIMENTO": [
+    {
+      "title": "SEM COMUNICAÇÃO",
+      "text": "Cliente não se comunicou mais, chat encerrado."
+    },
+    {
+      "title": "LOS PISCANDO",
+      "text": "Cliente em contato informando que está sem conexão. Ao verificar no sistema, ONU sem sinal e não autentica conosco. Ao verificar com o cliente os LEDs, ele informa LOS PISCANDO. ONU reiniciada, sem sucesso. CTO XXX, com X clientes, X clientes fora, verificando no ZABBIX, consta apenas cliente atual da OLT e G-PON desconectado. Passado para XXXX (NOC) que confirma normalidade na rede do local. Cliente ciente da necessidade de atendimento técnico e do prazo de 24 horas úteis para conclusão e de que o setor de agendamento entrará em contato para alinhar a ida do técnico na localidade. Cliente orientado a aguardar."
+    },
+    {
+      "title": "PON PISCANDO",
+      "text": "Cliente em contato informando que está sem conexão. Ao verificar no sistema, ONU sem sinal e não autentica conosco. Ao verificar com o cliente os LEDs, ele informa PON PISCANDO. ONU reiniciada, sem sucesso. CTO XXX, com X clientes, X clientes fora, verificando no ZABBIX, consta apenas cliente atual da OLT e G-PON desconectado. Passado para XXXX (NOC) que confirma normalidade na rede do local. Cliente ciente da necessidade de atendimento técnico e do prazo de 24 horas úteis para conclusão e de que o setor de agendamento entrará em contato para alinhar a ida do técnico na localidade. Cliente orientado a aguardar."
+    },
+    {
+      "title": "NENHUM LED ACESO",
+      "text": "Cliente em contato informando que está sem conexão. Ao verificar no sistema, ONU sem sinal e não autentica conosco. Ao verificar com cliente os LEDs, o mesmo informa nenhum LED aceso. Orientado a verificar botão ON/OFF e a tomada individual no local, sem sucesso.  CTO XXX, com X clientes, X clientes fora, verificando no ZABBIX, consta apenas cliente atual da OLT e G-PON desconectado. Passado para XXXX (NOC) que confirma normalidade na rede do local. Cliente ciente da necessidade de atendimento técnico e do prazo de 24 horas úteis para conclusão e de que o setor de agendamento entrará em contato para alinhar a ida do técnico na localidade. Cliente orientado a aguardar."
+    },
+    {
+      "title": "DROP BAIXO",
+      "text": "Cliente em contato informando que o DROP que vai do poste a sua residência/estabelecimento está BAIXO, poucos metros do chão. Equipamentos do cliente autenticando no sistema. Cliente informado da necessidade da ida do técnico para verificação e correção, ciente do prazo de 24 horas úteis para conclusão e que o setor de agendamento entrará em contato para alinhar a visita técnica. Cliente orientado a aguardar."
+    },
+    {
+      "title": "DROP ROMPIDO",
+      "text": "Cliente em contato informando que o DROP do poste a sua residência ROMPEU. Ao verificar no sistema, ONU sem sinal e não autentica conosco. Cliente informado da necessidade da ida do técnico para verificação e correção, ciente do prazo de 24 horas úteis para conclusão e que o setor de agendamento entrará em contato para alinhar a visita técnica. Cliente orientado a aguardar."
+    },
+    {
+      "title": "COBRANDO O ATENDIMENTO EXTERNO",
+      "text": "Cliente em contato cobrando ida do técnico ao local. Verificando, cliente com OS em aberta para atendimento externo/mudança de endereço/instalação. Cliente encaminhado ao setor de agendamento para alinhar a ida do técnico ao local."
+    },
+    {
+      "title": "CANCELAMENTO",
+      "text": "Cliente em contato solicitando cancelamento, ao verificar o motivo cliente informa que deseja prosseguir com o cancelamento. Ciente da necessidade de assinatura do termo de cancelamento e que o termo pode ser obtido tanto via WhatsApp, quanto presencialmente no escritório, ciente da necessidade de devolução do termo assinado junto com foto do documento de identificação(RG/CNH), ciente também que não pode conter débitos em abertos. Informado da necessidade de devolução/entrega dos equipamentos instalados, compreende que a não entrega/devolução dos equipamentos, ocasionaria a geração do boleto no valor de R $ 250,00 e a inserção do CPF nos órgãos de proteção ao crédito. Encaminhado ao colaborador Thiago Campos."
+    },
+    {
+      "title": "MUDANÇA DE ENDEREÇO",
+      "text": "Cliente entrou em contato solicitando mudança de endereço. Informado sobre a TAXA e sobre a possibilidade de doação de um brinquedo novo em um de nossos escritórios. Cliente ciente do prazo de 24 horas úteis para conclusão e que o setor de agendamento entrará em contato para alinhar a ida do técnico. Cliente orientado a aguardar."
+    },
+    {
+      "title": "CONEXÃO TRAVADA",
+      "text": "Cliente em contato informando estar sem conexão. Verificando, ONU com sinal e autenticando conosco. Orientei cliente a reiniciar equipamentos no local. Após, cliente confirma a conexão e agradece."
+    },
+    {
+      "title": "CONEXÃO INTERMITENTE",
+      "text": "Cliente em contato, informando queda de conexão frequente. Verificando, ONU com sinal e autenticando conosco, configurações da ONU revisadas, todas dentro do padrão, ONU reiniciada, após, cliente confirma conexão. Orientado a permanecer acompanhando e, caso retorne a cair, entrar em contato conosco novamente."
+    },
+    {
+      "title": "LENTIDÃO",
+      "text": "Cliente em contato, informando queda de conexão frequente. Verificando, ONU com sinal e autenticando conosco, configurações da ONU revisadas, todas dentro do padrão, ONU reiniciada, após, cliente confirma conexão. Orientado a testar a conexão na rede 5G. Cliente confirma melhora na conexão e agradece."
+    },
+    {
+      "title": "LENTIDÃO - TESTE DE VELOCIDADE",
+      "text": "Cliente em contato informando que sua conexão tem apresentado lentidão, e enviou um teste de velocidade, na qual resultado atingiu Mbps, informou que não estava chegando o pacote contratado. Informado que o pacote contratado é garantido via cabo e expliquei sobre as limitações da rede Wi-Fi e da rede 2.4ghz."
+    },
+    {
+      "title": "RECOVERY",
+      "text": "Cliente em contato informando estar sem conexão, Verificando, ONU com sinal, porém IP atual não autentica. Confirmado que o equipamento teria sido resetado. Verificando com (NOC) após ter sido realizado o Recovery, equipamentos voltou a autenticar, concluído as configurações. Orientei cliente a verificar acesso, o mesmo confirma e agradece."
+    },
+    {
+      "title": "ORDEM DOS CABOS",
+      "text": "Cliente em contato informando falta de conexão, ao verificar no sistema ONU com sinal, porém não autentica conosco. Orientei cliente a reiniciar equipamentos no local, sem sucesso, após encaminhar foto/vídeo do aparelho, confirmado ordem dos cabos incorreta, orientei a corrigir a ordem dos cabos e após conectar na tomada novamente. Equipamento voltou autenticar. Cliente confirma a conexão e agradece."
+    },
+    {
+      "title": "TROCA SENHA WIFI",
+      "text": "Cliente em contato para solicitar troca da senha de rede Wi-Fi. Senha alterada para:\nCliente confirma acesso e agradece."
+    },
+    {
+      "title": "TROCA NOME WIFI",
+      "text": "Cliente em contato para solicitar troca de nome da rede Wi-Fi. Nome alterado para:\nCliente confirma acesso e agradece."
+    },
+    {
+      "title": "TROCA SENHA WIFI (ROTEADOR PARTICULAR)",
+      "text": "Cliente em contato solicitando alteração da senha de rede Wi-Fi. Porém como verificado, roteador do cliente é particular, informei ao mesmo que não temos acesso as configurações do mesmo remotamente e orientei a verificar com algum técnico particular, verificar se poderíamos orientá-lo ou encaminhar roteador com tomada ao escritório para realizar a alteração das configurações."
+    },
+    {
+      "title": "MAC INVALIDO",
+      "text": "Cliente  em contato informando está sem conexão, ONU com sinal, porém roteador do cliente não autentica. Ao verificar no LOG, MAC inválido, Liberei MAC e enviei para cadastro. Equipamentos voltou a autenticar. Cliente confirma acesso e agradece."
+    },
+    {
+      "title": "CONTATO",
+      "text": "Entrei em contato com cliente, para verificar a respeito."
+    },
+    {
+      "title": "FIM DE EXPEDIENTE",
+      "text": "Estive acompanhando cliente do inicio do expediente até o momento, porém o mesmo não se comunicou. Devido final de expediente encaminhado ao colaborador:"
+    },
+    {
+      "title": "ATUALIZAÇÃO CONFIG ONU",
+      "text": "Foram alteradas DNS, DHCP para Slaac, Canal da rede e Criptografia. Firmware atualizado. Após procedimento cliente confirmou acesso normalizado e foi orientado entrar em contato caso a conexão venha apresentar nova dificuldade."
+    },
+    {
+      "title": "DSTECH PLAY",
+      "text": "Cliente em contato solicitando dados de acesso ao DStech Play / CDNTV. Informei ao mesmo, o usuário do titular CPF com pontos e traços e que a senha seria os CPF do titular sem ponto e traço, explicado passo a passo para instalação dos APP. Após o mesmo agradeceu."
+    },
+    {
+      "title": "GLOBO PLAY",
+      "text": "Cliente em contato informando que deseja informações sobre como ter acesso ao Globo Play, verificando no sistema, cliente já possui o plano Preferido com o Pacote do Globo Play. Pedi para que o cliente verificasse novamente no SPAM, Lixo eletrônico, Caixa de Entrada algum e-mail em nome da CELETI-HUB ou GLOBO, porém o cliente conferiu e informou que não recebeu de fato. Informei que estaria solicitando o setor responsável para efetuar o reenvio dos dados, pedi um novo e-mail valido, após informado. Orientei a cliente aguardar recebimento."
+    },
+    {
+      "title": "TV BOX",
+      "text": "Cliente entrou em contato informando que está com lentidão ou quedas de conexão somente na TV. Verificado no sistema, não consta registro de desconexões. Confirmado que se trata de uma TV Box. Informado que a dificuldade nesse caso é por conta do aparelho não ser legalizado e ter um fluxo limitado. Cliente compreendeu e agradeceu."
+    },
+    {
+      "title": "SUSPENSO POR DÉBITO",
+      "text": "Cliente em contato informando falta de conexão. Verificando, cliente suspenso por falta de pagamento de boleto em aberto para XX/XX. Cliente informado e orientado a realizar o pagamento para que seja liberado seu acesso novamente. Após cliente estar ciente, informa que deseja realizar o pagamento e é encaminhado ao Bot."
+    },
+    {
+      "title": "PAGAMENTO INVERTIDO",
+      "text": "Cliente em contato informando falta de conexão, ao verificar no sistema, equipamentos autenticando, porém, cliente está em STATUS de bloqueio. Ao verificar, notei que o cliente pagou invertido, pagando o boleto mais recente que ainda vai vencer e deixando o mais antigo em aberto. Orientei a regularizar para normalização da conexão, cliente compreende e agradece."
+    },
+    {
+      "title": "DESBLOQUEIO DE CONFIANÇA",
+      "text": "Cliente em contato informando falta de conexão. Verificando, cliente suspenso por falta de pagamento de boleto em aberto para XX/XX. Cliente informa ter realizado o pagamento e envia o comprovante. Confirmado o pagamento, acesso do cliente liberado. Cliente confirma o acesso e agradece. Segue em anexo o comprovante de pagamento do cliente."
+    },
+    {
+      "title": "PAGAMENTO CONTABILIZADO",
+      "text": "Cliente em contato informando ter realizado o pagamento de débito. Verificando, pagamento contabilizado no sistema, cliente informado, IP reiniciado e após, cliente confirma a conexão e agradece."
+    },
+    {
+      "title": "DESBLOQUEIO DE CONFIANÇA - JÁ UTILIZADO",
+      "text": "Cliente informa já ter realizado o pagamento e envia o comprovante. Informado sobre o desbloqueio de confiança. Porém, foi verificado e identificado que o desbloqueio já foi realizado anteriormente. Orientei cliente a aguardar compensação bancária."
+    },
+    {
+      "title": "CLIENTE INATIVO",
+      "text": "Cliente em contato informando falta de conexão, e queria informações sobre os boletos em atraso. No sistema, equipamentos não autenticam, contrato já se encontra INATIVO (inadimplência), informei cliente dos boletos que ficaram em aberto, e que ao vencer o terceiro boleto o contrato é cancelado. Informado da necessidade de devolução/entrega dos equipamentos instalados, compreende que a não entrega/devolução dos equipamentos, ocasionaria a geração do boleto no valor de R $ 250,00 e a inserção do CPF nos órgãos de proteção ao crédito."
+    },
+    {
+      "title": "INDIQUE UM AMIGO",
+      "text": "Cliente em contato informando que fez a indicação de um amigo recentemente, porém, seu boleto não foi cancelado e ainda está em aberto. Verificando o nome da pessoa indicada, identifiquei que a mesma contratou, pagou a PM e já foi compensado. Encaminhei mensagem no sistema para cancelar boleto do cliente atual. Informei o mesmo e orientei a aguardar."
+    },
+    {
+      "title": "INDIQUE UM AMIGO (A INDICAR)",
+      "text": "Cliente em contato, informando que deseja efetuar a indicação de um amigo. Informei e instruí o cliente no passo a passo para efetuar a indicação do amigo em nosso site, ciente de que a indicação precisa ser feita antes de o amigo efetuar o pedido com a Dstech. E que, após a indicação, a pessoa indicada já estaria apta a contratar com o provedor."
+    },
+    {
+      "title": "CLIENTE JÁ ATENDIDO",
+      "text": "Cliente a pouco tempo finalizou um atendimento via ligação, e estava aguardando no omini desde antes desse ultimo atendimento. Por motivos de dúvidas/dificuldades já ter sido sanada. Chat finalizado."
+    },
+    {
+      "title": "EXTRATO DA CONEXÃO",
+      "text": "Cliente entrou em contato e solicitou extrato de conexão, encaminhado mensagem de solicitação ao setor responsável."
+    },
+    {
+      "title": "MUDANÇA DE PLANO",
+      "text": "Cliente em contato desejando mudança de plano. Apresentado os planos disponíveis para sua região, cliente confirma mudança para XXXX. Cliente ciente da necessidade de assinar termo e que o mesmo consegue pelo nosso setor comercial, via WhatsApp ou presencialmente no escritório, durante o horário comercial segunda a sexta 08:00 às 18:00 e sábado 08:00 as 12:00, informei cliente que estaria encaminhando o atendimento para o setor comercial e na (segunda feira) a partir dàs 08:00 eles já iria lhe retornar para prosseguirem com o envio do termo e alteração do plano. Encaminhado ao setor administrativo/financeiro."
+    },
+    {
+      "title": "MUDANÇA DE TITULARIDADE",
+      "text": "Cliente em contato desejando verificar a possibilidade de mudança de titularidade. Informei a cliente que tinha a possibilidade sim e que para prosseguir com a mudança, seria necessário o cliente estar em posse do termo de mudança de titularidade e que esse termo poderia ser enviado pelo setor comercial ou retirar no escritório. Após seria necessário a devolução do termo assinado e preenchido pelo atual e o novo titular juntamente com os documentos de identificação (RG ou CNH). Ciente do funcionamento durante o horário comercial segunda a sexta 08:00 às 18:00 e sábado 08:00 as 12:00, informei cliente que estaria encaminhando o atendimento para o setor comercial e na (segunda feira) a partir dàs 08:00 eles já iria lhe retornar para prosseguirem com o envio do termo e alteração do plano. Encaminhado ao setor administrativo/financeiro."
+    },
+    {
+      "title": "ATENDIMENTO EXTERNO CALL",
+      "text": "Cliente entrou em contato informando falta de conexão. ONU sem sinal e não autentica. Orientei cliente a retirar equipamentos da tomada e verificar cabos, em seguida conectá-los novamente. Cabos em ordem corretas, fonte com LED aceso. Verificado no Zabbix, nenhum incidente reconhecido recentemente para o cliente, também sem registro de dificuldade na rede. Cliente ciente que será solicitado um atendimento externo, que o atendimento terá um prazo de 24 horas úteis para conclusão e que o setor de agendamento entrará em contato para informr dia/horário previsto para agendar ida técnica. Orientei o mesmo a aguardar."
+    }
+  ],
+  "OMINI": [
+    {
+      "title": "VENCIMENTO BOLETO",
+      "text": "Agora os boletos da Dstech são gerados 5 dias antes da data de vencimento.\nComo pagar:\nUse o código de barras do boleto. A compensação é rápida e acontece automaticamente, normalmente em poucos minutos (em até 1 hora).\n\nApp Minha Dstech\nVocê também pode emitir seu boleto e fazer o desbloqueio de confiança direto pelo celular:\n\nBaixe o app “Minha Dstech”:\niPhone: https://apps.apple.com/br/app/minha-dstech/id6796389614\nAndroid: https://play.google.com/store/apps/details?id=com.hubsoft_client_app.dstechh\nAbra o app e toque em “Já sou cliente”. Digite seu CPF, marque o termo de uso e toque em Enviar código. O código chega no seu e-mail.\nDigite o código e crie sua senha (mínimo de 8 caracteres, com letra maiúscula, minúscula e caractere especial: @ # ! $; não use sequências como 123 ou abc).\n\nTambém funciona no computador: dstech.com.br > Área do Cliente, com a mesma senha."
+    },
+    {
+      "title": "INFO CLIENTE – NECESSÁRIO OS (LOS/PON/PWR)",
+      "text": "Verificamos nossa rede e a mesma apresenta normalidade aí na região. Nesse caso, será necessário solicitar a ida de um dos nossos técnicos ao local para realizar a verificação e manutenção nos equipamentos. A manutenção tem um prazo de 24 horas úteis para ser concluído. Me confirma por gentileza, teria preferência de qual turno para atendimento presencial?\n\nManhã\nTarde\nQualquer horário"
+    },
+    {
+      "title": "OS ABERTA",
+      "text": "Atendimento solicitado, oriento a aguardar pois o setor de agendamento irá entrar em contato para definir o melhor dia e horário para o atendimento. Lembrando que nossos técnicos trabalham em dias e horário comercial. E o mesmo entrará em contato assim que estiver indo ao local para informá-lo(a)."
+    },
+    {
+      "title": "OS JÁ ABERTA - AGUARDAR",
+      "text": "Certo, verificando aqui no sistema, consta um atendimento em aberto para ida do técnico ao local. Oriento aguardar que o nosso setor de agendamento tem um prazo de 24 horas *úteis* para entrar em contato. Caso já tenha sido agendado, oriento aguardar."
+    },
+    {
+      "title": "OS JÁ ABERTA – ENCAMINHAR AO AGENDAMENTO",
+      "text": "Certo, verificando no sistema, realmente já tem um atendimento em aberto para a ida do técnico no local. Estarei lhe encaminhando ao nosso setor de agendamento que irá alinhar a ida do técnico até a localidade com urgência."
+    },
+    {
+      "title": "DESCONTO NA FATURA POR FALTA DE CONEXÃO",
+      "text": "Certo, nesse caso pode ser solicitado o na sua fatura, orientamos a nos retornar contato 3 dias antes do vencimento da fatura solicitando o calculo do desconto, na qual é realizado referente os últimos 30 dias. Desde já pedimos desculpas pelos transtornos e agradecemos a sua compreensão."
+    },
+    {
+      "title": "TRAVAMENTO DE IP",
+      "text": "Estive verificando aqui no sistema e Identifiquei que o aparelho segue a muito tempo sem ser reiniciado. Nisso, podem estar ocorrendo travamentos de IP, que é a comunicação que os equipamentos do local efetuam com a nossa rede. Sempre orientamos nossos clientes a reiniciar os equipamentos no mínimo uma vez por semana. Isso porque, todo site e navegação do cliente, fica armazenado resquícios dessa navegação na memória cache do equipamento roteador, esse acúmulo com o tempo, pode ocasionar travamentos durante a navegação ou lentidão, devido o acúmulo de informação. Então esse reinicio é necessário. Retirar da tomada por gentileza os equipamentos e deixa de 1 a 2 minutos desligados e após religa-os. Feito isso a navegação já obtêm uma melhoria. Após me confirma."
+    },
+    {
+      "title": "LENTIDÃO TESTE",
+      "text": "Logo abaixo estarei encaminhando um passo a passo para a realização de um teste de velocidade atual da conexão ai do local. Peço por gentileza que siga o passo a passo:\nPrecisamente e que realize os testes conectado na REDE com o final 5G, estando de frente ao roteador , caso tenha alguma televisão ou computador reproduzindo algo com a conexão de internet oriento a desligá-los, caso tenha algum aplicativo ou programa sendo instalado ou atualizado, estarei orientando a pausá-los."
+    },
+    {
+      "title": "TV VIA CABO",
+      "text": "Vou orientar o(a) senhor(a) a utilizar a TV e computadores via cabo, pois a rede Wi-Fi sem fio sofre com interferências e tem as suas limitações, na rede via cabo, o cliente utiliza o seu pacote contratado, sem interferências e oscilações."
+    },
+    {
+      "title": "TV Box",
+      "text": "Nesse caso, essa dificuldade ocorre porque os servidores de conteúdo utilizados pela maioria dos TV BOX/Lista IPTV são produtos/serviços não regulamentados pela ANATEL,(NÃO OFICIAL), além que muitos desses servidores são de fora do país e tem um acesso mais lento mesmo. Orientamos os nossos clientes a verificar com o fornecedor do equipamento TV Box, para que seja relatado a dificuldade que está sendo apresentado no local."
+    },
+    {
+      "title": "ROTEADOR PARTICULAR NÃO AUTENTICA",
+      "text": "Nesse caso, possivelmente o roteador foi desconfigurado, como o roteador do local é um equipamento particular de responsabilidade do cliente, não temos acesso a ele remotamente pelo sistema e infelizmente nossos técnicos não realiza manutenção ou configuração em equipamento particular do cliente no local. Mediante isso, orientamos o cliente a encaminhar o roteador apenas(equipamentos que possui antenas) e a sua tomada(fonte) ao nosso escritório para reconfiguração, por cortesia da empresa, funcionamento para reconfiguração é de 08:00 até as 17:30 durante a semana e de 08:00 até 11:30 aos sábados, caso ultrapasse esse horário a entrega é no dia seguinte, para a reconfiguração vai em torno de até 60 minutos no máximo. Caso desejar também, o cliente pode está levando a um técnico particular ou caso o mesmo compreenda podemos está tentando orientar na reconfiguração do equipamento. Como deseja prosseguir?"
+    },
+    {
+      "title": "ORDEM DOS CABOS",
+      "text": "Há um cabo de rede que conecta o conversor da fibra até o roteador, verifica em qual entrada atrás do roteador esse cabo está conectado? (tem um nome pequeno descrito nessa entrada ou cor)."
+    },
+    {
+      "title": "SUSPENSO POR DÉBITO",
+      "text": "Certo, eu verifiquei aqui no sistema e seu acesso consta como suspenso por débito em aberto de um boleto, vencimento XXXX. Após o vencimento da fatura, a DStech concede um prazo de 15 dias de tolerância antes que ocorra o bloqueio do serviço. Oriento realizar o pagamento que, assim que for contabilizado no sistema, seu acesso será liberado de forma automática. \nSe desejar realizar o pagamento agora, posso lhe encaminhar ao nosso assistente virtual que irá disponibilizar o boleto para pagamento, basta seguir as instruções e digitar o número correspondente ao boleto: 1, 2 ou 3."
+    },
+    {
+      "title": "SITE DSTECH",
+      "text": "Certo, para acessar o site da DSTech, basta clicar no link a seguir: https://dstech.com.br/ ou pode copiar e colar esse link no seu navegador.\nOutra forma é digitar DSTech no Google e procurar por DSTech Provedor de internet.\nQualquer dúvida só entrar em contato conosco."
+    },
+    {
+      "title": "SISTEMA NÃO LOCALIZOU O PAGAMENTO (PÓS DC)",
+      "text": "O desbloqueio de confiança é gerado até nosso sistema rotacionar no dia seguinte, acatando os novos pagamentos. No seu caso, o sistema realizou a rotação financeira hoje pela manhã. Como o banco ainda não realizou a compensação do seu pagamento, o sistema bloqueou o acesso novamente. Caso tenha realizado o pagamento, oriento aguardar compensação bancária do pagamento para desbloqueio da conexão."
+    },
+    {
+      "title": "COMPENSAÇÃO BANCARIA",
+      "text": "Certo, realizando o pagamento em nosso escritório ou via Pix a compensação ocorre no mesmo momento e o desbloqueio também. Caso o pagamento seja realizado fora, o pagamento passará pela compensação do banco que varia entre 24 a 48 horas. Porém, o cliente conta com a opção do desbloqueio de confiança no site da https://dstech.com.br/  que concede ao mesmo um desbloqueio temporário com duração de 1 dia útil. Após, se o pagamento não for localizado, a conexão será bloqueada novamente."
+    },
+    {
+      "title": "CLIENTE INATIVO",
+      "text": "Eu verifiquei aqui no sistema e o contrato se encontra inativo (cancelado) devido aos débitos que ficaram em aberto. Quando vence o terceiro boleto, automaticamente o contrato inativa. Ele pode ser reativado mediante o pagamento dos débitos em aberto ou caso permaneça inativo por mais tempo o contrato pode ser cancelado."
+    }
+  ]
+}
