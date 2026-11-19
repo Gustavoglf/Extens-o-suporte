@@ -1,4 +1,4 @@
-# DSTech suporte
+# DSTech extensão de suporte
 
 Atualização:
 
